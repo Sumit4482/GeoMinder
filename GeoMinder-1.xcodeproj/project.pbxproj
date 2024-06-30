@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFAD1E122C2E8B03009BDFC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD1E112C2E8B03009BDFC9 /* AppDelegate.swift */; };
+		EFAD1E142C2E8B03009BDFC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD1E132C2E8B03009BDFC9 /* SceneDelegate.swift */; };
+		EFAD1E162C2E8B03009BDFC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD1E152C2E8B03009BDFC9 /* ViewController.swift */; };
+		EFAD1E192C2E8B03009BDFC9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EFAD1E182C2E8B03009BDFC9 /* Base */; };
+		EFAD1E1C2C2E8B03009BDFC9 /* GeoMinder_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFAD1E1A2C2E8B03009BDFC9 /* GeoMinder_1.xcdatamodeld */; };
+		EFAD1E1E2C2E8B05009BDFC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAD1E1D2C2E8B05009BDFC9 /* Assets.xcassets */; };
+		EFAD1E212C2E8B05009BDFC9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EFAD1E202C2E8B05009BDFC9 /* Base */; };
+		EFAD1E2C2C2E8B06009BDFC9 /* GeoMinder_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD1E2B2C2E8B06009BDFC9 /* GeoMinder_1Tests.swift */; };
+		EFAD1E362C2E8B06009BDFC9 /* GeoMinder_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD1E352C2E8B06009BDFC9 /* GeoMinder_1UITests.swift */; };
+		EFAD1E382C2E8B06009BDFC9 /* GeoMinder_1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD1E372C2E8B06009BDFC9 /* GeoMinder_1UITestsLaunchTests.swift */; };
+		EFAD1E462C2E8B88009BDFC9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAD1E452C2E8B88009BDFC9 /* CoreData.framework */; };
+		EFAD1E482C2E8BAE009BDFC9 /* AddReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD1E472C2E8BAE009BDFC9 /* AddReminderViewController.swift */; };
+		EFAD1E4A2C2E8BC6009BDFC9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD1E492C2E8BC6009BDFC9 /* MapViewController.swift */; };
+		EFAD1E4C2C2E8DB5009BDFC9 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD1E4B2C2E8DB5009BDFC9 /* CoreDataManager.swift */; };
+		EFAD1E4E2C2E9260009BDFC9 /* ReminderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD1E4D2C2E9260009BDFC9 /* ReminderTableViewCell.swift */; };
+		EFAD1E502C2E9B24009BDFC9 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD1E4F2C2E9B24009BDFC9 /* AlertHelper.swift */; };
+		EFAD1E522C2EB1A1009BDFC9 /* ReminderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD1E512C2EB1A1009BDFC9 /* ReminderDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFAD1E282C2E8B06009BDFC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAD1E062C2E8B03009BDFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAD1E0D2C2E8B03009BDFC9;
+			remoteInfo = "GeoMinder-1";
+		};
+		EFAD1E322C2E8B06009BDFC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAD1E062C2E8B03009BDFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAD1E0D2C2E8B03009BDFC9;
+			remoteInfo = "GeoMinder-1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFAD1E0E2C2E8B03009BDFC9 /* GeoMinder-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GeoMinder-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAD1E112C2E8B03009BDFC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFAD1E132C2E8B03009BDFC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EFAD1E152C2E8B03009BDFC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFAD1E182C2E8B03009BDFC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFAD1E1B2C2E8B03009BDFC9 /* GeoMinder_1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GeoMinder_1.xcdatamodel; sourceTree = "<group>"; };
+		EFAD1E1D2C2E8B05009BDFC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFAD1E202C2E8B05009BDFC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFAD1E222C2E8B05009BDFC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAD1E272C2E8B06009BDFC9 /* GeoMinder-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GeoMinder-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAD1E2B2C2E8B06009BDFC9 /* GeoMinder_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoMinder_1Tests.swift; sourceTree = "<group>"; };
+		EFAD1E312C2E8B06009BDFC9 /* GeoMinder-1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GeoMinder-1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAD1E352C2E8B06009BDFC9 /* GeoMinder_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoMinder_1UITests.swift; sourceTree = "<group>"; };
+		EFAD1E372C2E8B06009BDFC9 /* GeoMinder_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoMinder_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFAD1E452C2E8B88009BDFC9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EFAD1E472C2E8BAE009BDFC9 /* AddReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderViewController.swift; sourceTree = "<group>"; };
+		EFAD1E492C2E8BC6009BDFC9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		EFAD1E4B2C2E8DB5009BDFC9 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		EFAD1E4D2C2E9260009BDFC9 /* ReminderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTableViewCell.swift; sourceTree = "<group>"; };
+		EFAD1E4F2C2E9B24009BDFC9 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		EFAD1E512C2EB1A1009BDFC9 /* ReminderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFAD1E0B2C2E8B03009BDFC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAD1E462C2E8B88009BDFC9 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAD1E242C2E8B06009BDFC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAD1E2E2C2E8B06009BDFC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFAD1E052C2E8B03009BDFC9 = {
+			isa = PBXGroup;
+			children = (
+				EFAD1E102C2E8B03009BDFC9 /* GeoMinder-1 */,
+				EFAD1E2A2C2E8B06009BDFC9 /* GeoMinder-1Tests */,
+				EFAD1E342C2E8B06009BDFC9 /* GeoMinder-1UITests */,
+				EFAD1E0F2C2E8B03009BDFC9 /* Products */,
+				EFAD1E442C2E8B88009BDFC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFAD1E0F2C2E8B03009BDFC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD1E0E2C2E8B03009BDFC9 /* GeoMinder-1.app */,
+				EFAD1E272C2E8B06009BDFC9 /* GeoMinder-1Tests.xctest */,
+				EFAD1E312C2E8B06009BDFC9 /* GeoMinder-1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFAD1E102C2E8B03009BDFC9 /* GeoMinder-1 */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD1E112C2E8B03009BDFC9 /* AppDelegate.swift */,
+				EFAD1E132C2E8B03009BDFC9 /* SceneDelegate.swift */,
+				EFAD1E152C2E8B03009BDFC9 /* ViewController.swift */,
+				EFAD1E512C2EB1A1009BDFC9 /* ReminderDetailViewController.swift */,
+				EFAD1E4D2C2E9260009BDFC9 /* ReminderTableViewCell.swift */,
+				EFAD1E492C2E8BC6009BDFC9 /* MapViewController.swift */,
+				EFAD1E4F2C2E9B24009BDFC9 /* AlertHelper.swift */,
+				EFAD1E472C2E8BAE009BDFC9 /* AddReminderViewController.swift */,
+				EFAD1E4B2C2E8DB5009BDFC9 /* CoreDataManager.swift */,
+				EFAD1E172C2E8B03009BDFC9 /* Main.storyboard */,
+				EFAD1E1D2C2E8B05009BDFC9 /* Assets.xcassets */,
+				EFAD1E1F2C2E8B05009BDFC9 /* LaunchScreen.storyboard */,
+				EFAD1E222C2E8B05009BDFC9 /* Info.plist */,
+				EFAD1E1A2C2E8B03009BDFC9 /* GeoMinder_1.xcdatamodeld */,
+			);
+			path = "GeoMinder-1";
+			sourceTree = "<group>";
+		};
+		EFAD1E2A2C2E8B06009BDFC9 /* GeoMinder-1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD1E2B2C2E8B06009BDFC9 /* GeoMinder_1Tests.swift */,
+			);
+			path = "GeoMinder-1Tests";
+			sourceTree = "<group>";
+		};
+		EFAD1E342C2E8B06009BDFC9 /* GeoMinder-1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD1E352C2E8B06009BDFC9 /* GeoMinder_1UITests.swift */,
+				EFAD1E372C2E8B06009BDFC9 /* GeoMinder_1UITestsLaunchTests.swift */,
+			);
+			path = "GeoMinder-1UITests";
+			sourceTree = "<group>";
+		};
+		EFAD1E442C2E8B88009BDFC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD1E452C2E8B88009BDFC9 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFAD1E0D2C2E8B03009BDFC9 /* GeoMinder-1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAD1E3B2C2E8B06009BDFC9 /* Build configuration list for PBXNativeTarget "GeoMinder-1" */;
+			buildPhases = (
+				EFAD1E0A2C2E8B03009BDFC9 /* Sources */,
+				EFAD1E0B2C2E8B03009BDFC9 /* Frameworks */,
+				EFAD1E0C2C2E8B03009BDFC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GeoMinder-1";
+			productName = "GeoMinder-1";
+			productReference = EFAD1E0E2C2E8B03009BDFC9 /* GeoMinder-1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFAD1E262C2E8B06009BDFC9 /* GeoMinder-1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAD1E3E2C2E8B06009BDFC9 /* Build configuration list for PBXNativeTarget "GeoMinder-1Tests" */;
+			buildPhases = (
+				EFAD1E232C2E8B06009BDFC9 /* Sources */,
+				EFAD1E242C2E8B06009BDFC9 /* Frameworks */,
+				EFAD1E252C2E8B06009BDFC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAD1E292C2E8B06009BDFC9 /* PBXTargetDependency */,
+			);
+			name = "GeoMinder-1Tests";
+			productName = "GeoMinder-1Tests";
+			productReference = EFAD1E272C2E8B06009BDFC9 /* GeoMinder-1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFAD1E302C2E8B06009BDFC9 /* GeoMinder-1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAD1E412C2E8B06009BDFC9 /* Build configuration list for PBXNativeTarget "GeoMinder-1UITests" */;
+			buildPhases = (
+				EFAD1E2D2C2E8B06009BDFC9 /* Sources */,
+				EFAD1E2E2C2E8B06009BDFC9 /* Frameworks */,
+				EFAD1E2F2C2E8B06009BDFC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAD1E332C2E8B06009BDFC9 /* PBXTargetDependency */,
+			);
+			name = "GeoMinder-1UITests";
+			productName = "GeoMinder-1UITests";
+			productReference = EFAD1E312C2E8B06009BDFC9 /* GeoMinder-1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFAD1E062C2E8B03009BDFC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EFAD1E0D2C2E8B03009BDFC9 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EFAD1E262C2E8B06009BDFC9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EFAD1E0D2C2E8B03009BDFC9;
+					};
+					EFAD1E302C2E8B06009BDFC9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EFAD1E0D2C2E8B03009BDFC9;
+					};
+				};
+			};
+			buildConfigurationList = EFAD1E092C2E8B03009BDFC9 /* Build configuration list for PBXProject "GeoMinder-1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFAD1E052C2E8B03009BDFC9;
+			productRefGroup = EFAD1E0F2C2E8B03009BDFC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFAD1E0D2C2E8B03009BDFC9 /* GeoMinder-1 */,
+				EFAD1E262C2E8B06009BDFC9 /* GeoMinder-1Tests */,
+				EFAD1E302C2E8B06009BDFC9 /* GeoMinder-1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFAD1E0C2C2E8B03009BDFC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAD1E1E2C2E8B05009BDFC9 /* Assets.xcassets in Resources */,
+				EFAD1E212C2E8B05009BDFC9 /* Base in Resources */,
+				EFAD1E192C2E8B03009BDFC9 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAD1E252C2E8B06009BDFC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAD1E2F2C2E8B06009BDFC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFAD1E0A2C2E8B03009BDFC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAD1E482C2E8BAE009BDFC9 /* AddReminderViewController.swift in Sources */,
+				EFAD1E4A2C2E8BC6009BDFC9 /* MapViewController.swift in Sources */,
+				EFAD1E162C2E8B03009BDFC9 /* ViewController.swift in Sources */,
+				EFAD1E122C2E8B03009BDFC9 /* AppDelegate.swift in Sources */,
+				EFAD1E1C2C2E8B03009BDFC9 /* GeoMinder_1.xcdatamodeld in Sources */,
+				EFAD1E4C2C2E8DB5009BDFC9 /* CoreDataManager.swift in Sources */,
+				EFAD1E502C2E9B24009BDFC9 /* AlertHelper.swift in Sources */,
+				EFAD1E522C2EB1A1009BDFC9 /* ReminderDetailViewController.swift in Sources */,
+				EFAD1E142C2E8B03009BDFC9 /* SceneDelegate.swift in Sources */,
+				EFAD1E4E2C2E9260009BDFC9 /* ReminderTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAD1E232C2E8B06009BDFC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAD1E2C2C2E8B06009BDFC9 /* GeoMinder_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAD1E2D2C2E8B06009BDFC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAD1E362C2E8B06009BDFC9 /* GeoMinder_1UITests.swift in Sources */,
+				EFAD1E382C2E8B06009BDFC9 /* GeoMinder_1UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFAD1E292C2E8B06009BDFC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAD1E0D2C2E8B03009BDFC9 /* GeoMinder-1 */;
+			targetProxy = EFAD1E282C2E8B06009BDFC9 /* PBXContainerItemProxy */;
+		};
+		EFAD1E332C2E8B06009BDFC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAD1E0D2C2E8B03009BDFC9 /* GeoMinder-1 */;
+			targetProxy = EFAD1E322C2E8B06009BDFC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFAD1E172C2E8B03009BDFC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAD1E182C2E8B03009BDFC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFAD1E1F2C2E8B05009BDFC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAD1E202C2E8B05009BDFC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFAD1E392C2E8B06009BDFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFAD1E3A2C2E8B06009BDFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFAD1E3C2C2E8B06009BDFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GeoMinder-1/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumit.GeoMinder-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFAD1E3D2C2E8B06009BDFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GeoMinder-1/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumit.GeoMinder-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFAD1E3F2C2E8B06009BDFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumit.GeoMinder-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoMinder-1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeoMinder-1";
+			};
+			name = Debug;
+		};
+		EFAD1E402C2E8B06009BDFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumit.GeoMinder-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoMinder-1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeoMinder-1";
+			};
+			name = Release;
+		};
+		EFAD1E422C2E8B06009BDFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumit.GeoMinder-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GeoMinder-1";
+			};
+			name = Debug;
+		};
+		EFAD1E432C2E8B06009BDFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumit.GeoMinder-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GeoMinder-1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFAD1E092C2E8B03009BDFC9 /* Build configuration list for PBXProject "GeoMinder-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAD1E392C2E8B06009BDFC9 /* Debug */,
+				EFAD1E3A2C2E8B06009BDFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAD1E3B2C2E8B06009BDFC9 /* Build configuration list for PBXNativeTarget "GeoMinder-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAD1E3C2C2E8B06009BDFC9 /* Debug */,
+				EFAD1E3D2C2E8B06009BDFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAD1E3E2C2E8B06009BDFC9 /* Build configuration list for PBXNativeTarget "GeoMinder-1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAD1E3F2C2E8B06009BDFC9 /* Debug */,
+				EFAD1E402C2E8B06009BDFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAD1E412C2E8B06009BDFC9 /* Build configuration list for PBXNativeTarget "GeoMinder-1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAD1E422C2E8B06009BDFC9 /* Debug */,
+				EFAD1E432C2E8B06009BDFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EFAD1E1A2C2E8B03009BDFC9 /* GeoMinder_1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EFAD1E1B2C2E8B03009BDFC9 /* GeoMinder_1.xcdatamodel */,
+			);
+			currentVersion = EFAD1E1B2C2E8B03009BDFC9 /* GeoMinder_1.xcdatamodel */;
+			path = GeoMinder_1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EFAD1E062C2E8B03009BDFC9 /* Project object */;
+}
